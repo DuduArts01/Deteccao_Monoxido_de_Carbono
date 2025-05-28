@@ -1,2 +1,2 @@
-##Bibliotecas 
+Bibliotecas:
 As bibliotecas que tem que baixar no arduino ide para rodar o código são: Thingspeak e LiquidCrystal I2C, sem eles o código dará erro. O Thingspeak no próprio site deles você poderá criar uma conta e um canal para conseguir marcar os pontos no gráfico que você deseja criar, que no caso é para o monóxido de carbono
