@@ -20,8 +20,8 @@ const unsigned long interval = 30000; // Intervalo de 30 segundos (em milissegun
 const char* apiKey = "XD0JFUY7GCOL6T1I";      // Substitua pela API Key do seu canal ThingSpeak
 const long channelID = 2931357;               // Substitua pelo ID do seu canal ThingSpeak
 
-const char* ssid = "POCOF4";                   // Roteador do seu celular
-const char* password = "pedroHT2006";            // Senha do seu roteador
+const char* ssid = "nome_do_roteador_do_celular";                   // Roteador do seu celular
+const char* password = "senha_do_roteador_do_celular";            // Senha do seu roteador
 
 WiFiClient client; // Wifi simples
 
@@ -31,7 +31,7 @@ int n;
 int cont;                                 // Variável inteira - Global
 boolean pisca = false;
 
-
+// Fatores corretivos
 const int numReadings = 20;
 float COReadings[numReadings] = {0};
 int readIndex = 0;
@@ -120,7 +120,7 @@ void loop() {
   lcd.clear();
   lcd.backlight();
   lcd.setCursor(0, 0);
-  lcd.print("Lab 6_1: ");
+  lcd.print("Lab: ");
   lcd.setCursor(0, 1);
   lcd.print("Sensor MQ7");
 
@@ -133,10 +133,10 @@ void loop() {
   readIndex = (readIndex + 1) % numReadings;  // Atualizar o índice
   float COMedia = COTotal / numReadings;
 
-  COMedia = COMedia * 2/150;
+  COMedia = COMedia * 2/150; //Fator corretivo ==> Valor de referância / Média dos Valores medidos pelo sensor(pegos no gráfico do Thingspeak)
 
   Serial.print("Leitura Sensor: ");
-  Serial.print(CO);
+  Serial.print(COMedia);
   Serial.println(" ");
 
 
