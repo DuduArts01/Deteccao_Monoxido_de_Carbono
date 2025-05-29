@@ -45,11 +45,11 @@ Características:
 <h2>Componentes usados para detectar CO</h2>
 Para conseguir detectar o monóxido de Carbono(CO) foram usados o Esp32, display e sensor MQ-7.
 
-<h3>Esp32</h3>
-<img width=100em align="center" src=""/>
+<p align="center"><h3>Esp32</h3></p>
+<div align="center"><img width=300em src="Esp32/Esp32.jpg"/></div>
 
-<h3>Display</h3>
-<img width=100em align="center" src=""/>
+<p align="center"><h3>Display</h3></p>
+<div align="center"><img width=300em src=""/></div>
 
-<h3>Sensor MQ-7</h3>
-<img width=100em align="center" src="Esp32/Sensor MQ-7.png"/>
+<p align="center"><h3>Sensor MQ-7</h3></p>
+<div align="center"><img width=850em align="center" src="Esp32/Sensor MQ-7.png"/></div>
