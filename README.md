@@ -37,7 +37,7 @@ Características:
 - Produz menos energia
 - Libera poluentes tóxicos
 
-<p align="center"><h2 align="center">Fórmula estequiométrica da combustão completa e incompleta:</h2></p>
+<h2 align="center">Fórmula estequiométrica da combustão completa e incompleta:</h2>
 <div align="center">
   <img height=300em src="Combustao/Combustão_Completa_incompleta.png"/> 
 </div>
@@ -45,11 +45,11 @@ Características:
 <h2>Componentes usados para detectar CO</h2>
 Para conseguir detectar o monóxido de Carbono(CO) foram usados o Esp32, display e sensor MQ-7.
 
-<p align="center"><h3>Esp32</h3></p>
+<h3 align="center">Esp32</h3>
 <div align="center"><img width=300em src="Esp32/Esp32.jpg"/></div>
 
-<p align="center"><h3>Display</h3></p>
-<div align="center"><img width=300em src=""/></div>
+<h3 align="center">Display</h3>
+<div align="center"><img width=300em src="Esp32/display.png"/></div>
 
-<p align="center"><h3>Sensor MQ-7</h3></p>
+<h3 align="center">Sensor MQ-7</h3>
 <div align="center"><img width=850em align="center" src="Esp32/Sensor MQ-7.png"/></div>
