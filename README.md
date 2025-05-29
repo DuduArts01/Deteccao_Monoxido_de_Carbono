@@ -52,4 +52,4 @@ Para conseguir detectar o monóxido de Carbono(CO) foram usados o Esp32, display
 <img width=100em align="center" src=""/>
 
 <h3>Sensor MQ-7</h3>
-<img width=100em align="center" src=""/>
+<img width=100em align="center" src="Esp32/Sensor MQ-7.png"/>
