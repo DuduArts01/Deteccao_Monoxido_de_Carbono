@@ -17,8 +17,8 @@ unsigned long lastTime = 0; // Tempo da última execução
 const unsigned long interval = 30000; // Intervalo de 30 segundos (em milissegundos)
 
 // Configurações do ThingSpeak
-const char* apiKey = "XD0JFUY7GCOL6T1I";      // Substitua pela API Key do seu canal ThingSpeak
-const long channelID = 2931357;               // Substitua pelo ID do seu canal ThingSpeak
+const char* apiKey = "Chave_Api_Thing_speak";      // Substitua pela API Key do seu canal ThingSpeak
+const long channelID = ID_Thingspeak;               // Substitua pelo ID do seu canal ThingSpeak
 
 const char* ssid = "nome_do_roteador_do_celular";                   // Roteador do seu celular
 const char* password = "senha_do_roteador_do_celular";            // Senha do seu roteador
