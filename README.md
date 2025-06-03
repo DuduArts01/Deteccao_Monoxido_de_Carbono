@@ -42,6 +42,14 @@ Características:
   <img height=300em src="Combustao/Combustão_Completa_incompleta.png"/> 
 </div>
 
+## 🎬 Demonstração do Projeto
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=O_OMLBljkNg" target="_blank">
+    <img src="https://img.youtube.com/vi/O_OMLBljkNg/maxresdefault.jpg" alt="Clique para assistir ao vídeo" width="800">
+  </a>
+</div>
+
 <h2>Componentes usados para detectar CO</h2>
 Para conseguir detectar o monóxido de Carbono(CO) foram usados o Esp32, display e sensor MQ-7.
 
