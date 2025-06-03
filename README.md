@@ -43,7 +43,7 @@ Características:
 </div>
 
 ## 🎬 Demonstração do Projeto
-
+</br>Clique na thumbnail para conseguir assistir o vídeo, no youtube, sobre a explicação do monóxido de carbono.
 <div align="center">
   <a href="https://www.youtube.com/watch?v=O_OMLBljkNg" target="_blank">
     <img src="https://img.youtube.com/vi/O_OMLBljkNg/maxresdefault.jpg" alt="Clique para assistir ao vídeo" width="800">
